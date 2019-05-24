@@ -11,7 +11,7 @@ print ("cursor.description: ", crsr.description)
 # TODO: Capture class image and get url of the image
 # TODO: Get api documentation of the app to capture image and consume it here
 image_url = input("Please enter image url: ")
-subscription_key = '38af3cd0-be70-4435-a980-7bb408d573d7'
+subscription_key = 'add your subscription key here'
 assert subscription_key
 
 face_api_url = 'http://imsyafiq.xyz:8082/azure-face-api/detect'
