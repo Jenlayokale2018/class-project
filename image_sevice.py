@@ -4,7 +4,7 @@ import json
 import pymysql.cursors
 import sys
 
-subscription_key = '38af3cd0-be70-4435-a980-7bb408d573d7'
+subscription_key = 'add your subscription key here'
 assert subscription_key
 face_api_url = 'http://imsyafiq.xyz:8082/azure-face-api/detect'
 
