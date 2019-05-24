@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "a420be28-75be-4327-a4e4-44d9456f6b44",
+		"_postman_id": "postman id",
 		"name": "mama t",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -12,7 +12,7 @@
 				"header": [
 					{
 						"key": "X-Gravitee-Api-Key",
-						"value": "38af3cd0-be70-4435-a980-7bb408d573d7",
+						"value": "subscription key from your endpoint here",
 						"type": "text"
 					},
 					{
