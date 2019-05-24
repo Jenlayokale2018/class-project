@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "a420be28-75be-4327-a4e4-44d9456f6b44",
+		"name": "mama t",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "mama t",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-Gravitee-Api-Key",
+						"value": "38af3cd0-be70-4435-a980-7bb408d573d7",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n \"url\" : \"https://upload.wikimedia.org/wikipedia/commons/3/37/Dagestani_man_and_woman.jpg\"\n}"
+				},
+				"url": {
+					"raw": "http://imsyafiq.xyz:8082/azure-face-api/detect?returnFaceAttributes=age,gender,headPose,smile,facialHair,glasses,emotion,hair,makeup,occlusion,accessories,blur,exposure,noise",
+					"protocol": "http",
+					"host": [
+						"imsyafiq",
+						"xyz"
+					],
+					"port": "8082",
+					"path": [
+						"azure-face-api",
+						"detect"
+					],
+					"query": [
+						{
+							"key": "returnFaceAttributes",
+							"value": "age,gender,headPose,smile,facialHair,glasses,emotion,hair,makeup,occlusion,accessories,blur,exposure,noise"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
